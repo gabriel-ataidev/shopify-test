@@ -19,7 +19,10 @@
     },
     "custom-section": {
       "type": "custom-section",
-      "settings": {}
+      "settings": {
+        "heading": "Welcome to the custom page!",
+        "description": "This is a custom description for the custom page template."
+      }
     },
     "image_with_text_33Dgjd": {
       "type": "image-with-text",
