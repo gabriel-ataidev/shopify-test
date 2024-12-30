@@ -17,6 +17,10 @@
         "padding_bottom": 28
       }
     },
+    "custom-section": {
+      "type": "custom-section",
+      "settings": {}
+    },
     "image_with_text_33Dgjd": {
       "type": "image-with-text",
       "blocks": {
@@ -57,6 +61,7 @@
   },
   "order": [
     "main",
+    "custom-section",
     "image_with_text_33Dgjd"
   ]
 }
