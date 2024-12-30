@@ -1,6 +1,29 @@
+<div class="custom-section">
+  <h1>{{ section.settings.heading }}</h1>
+  <p>{{ section.settings.description }}</p>
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Custom Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Welcome to the custom page!"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "This is a custom description for the custom page template."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Default"
+    }
+  ]
+}
 {% endschema %}
